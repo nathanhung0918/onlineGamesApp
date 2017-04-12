@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="avp-pU-raR">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Table View Controller-->
+        <scene sceneID="CWR-ve-5zN">
+            <objects>
+                <tableViewController id="Ugo-Yl-KaK" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="JSN-EO-c1m">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <sections>
+                            <tableViewSection id="wt7-3a-92F">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="puw-eb-Dmv">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="puw-eb-Dmv" id="0mY-3i-uJ4">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LOL: never_lose" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wBK-Xs-obF">
+                                                    <rect key="frame" x="56" y="14" width="201" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="10w-lx-1ZL">
+                                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="10w-lx-1ZL" id="viX-uO-jwr">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="OW:Zonda" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AUT-TD-wYz">
+                                                    <rect key="frame" x="56" y="14" width="201" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="ojx-lo-K4v">
+                                        <rect key="frame" x="0.0" y="88" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ojx-lo-K4v" id="EaK-28-6Or">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HS:Uzra" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d9Y-ua-qlI">
+                                                    <rect key="frame" x="56" y="14" width="201" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="NBo-Ux-bW4">
+                                        <rect key="frame" x="0.0" y="132" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="NBo-Ux-bW4" id="SQO-mg-2oI">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="DBD:angryPug" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yPE-aW-jNP">
+                                                    <rect key="frame" x="56" y="14" width="201" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="Ugo-Yl-KaK" id="Axn-OS-GLS"/>
+                            <outlet property="delegate" destination="Ugo-Yl-KaK" id="4k9-Uv-5lm"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="Qut-zO-amk"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Mr-ht-jwO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1668" y="284.70764617691157"/>
+        </scene>
+        <!--my teacher-->
+        <scene sceneID="UNB-hY-LGr">
+            <objects>
+                <viewController id="4RU-FI-p7j" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Zcg-7y-VoE"/>
+                        <viewControllerLayoutGuide type="bottom" id="HUi-Yw-d4h"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="a9B-f5-ZDW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="11072522_10203416445883493_2093850579470301928_o.png" translatesAutoresizingMaskIntoConstraints="NO" id="JQL-vI-DqH">
+                                <rect key="frame" x="57" y="91" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="QQ6-mm-JwJ">
+                                <rect key="frame" x="67" y="294" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">蘋果世界的小飛俠 － 作家，專欄作家，講師，工程師，顧問 著作: Swift程式設計入門， App程式設計入門 - iPhone . iPad 課程: 彼得潘的 iOS App 程式設計入門，文組生的 iOS App 程式設計入門
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.95417418222250205" blue="0.66622163261324419" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="my teacher" id="WMp-P9-wdJ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JJw-K3-uxj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="558" y="1181"/>
+        </scene>
+        <!--Games-->
+        <scene sceneID="DSJ-cr-0OZ">
+            <objects>
+                <tableViewController id="o1d-Za-BIh" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="MVK-IC-KoT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <sections>
+                            <tableViewSection id="7Li-cb-8ts">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="cOD-Yu-Xgw">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cOD-Yu-Xgw" id="RKZ-Ep-lh4">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="League of Legend" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hR4-dQ-EnK">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Owa-67-hhq" kind="show" id="7y9-ee-S67"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="3eJ-SS-7El">
+                                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="3eJ-SS-7El" id="mkX-W0-ZcO">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Overwatch" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ReW-02-Bcq">
+                                                    <rect key="frame" x="0.0" y="-1" width="375" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="28B-iL-LPN" kind="show" id="ibZ-ki-Ykx"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="vat-Gz-i39">
+                                        <rect key="frame" x="0.0" y="88" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vat-Gz-i39" id="Pb0-C8-m8N">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HearthStone" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MOB-5T-Swm">
+                                                    <rect key="frame" x="0.0" y="-1" width="375" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="B7s-9F-kGw" kind="show" id="t0f-SM-G40"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="BAK-be-obB">
+                                        <rect key="frame" x="0.0" y="132" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="BAK-be-obB" id="Pip-6D-OyN">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Daad by Daylight" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dyI-lA-0bS">
+                                                    <rect key="frame" x="0.0" y="-1" width="375" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="eqq-Zg-Pxv" kind="show" id="8gL-jn-dCB"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="Rpi-Ej-0KB">
+                                        <rect key="frame" x="0.0" y="176" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Rpi-Ej-0KB" id="4XR-Cj-DFA">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="To be continued..." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HZJ-Kh-VGc">
+                                                    <rect key="frame" x="0.0" y="-1" width="375" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="o1d-Za-BIh" id="wec-mF-8qP"/>
+                            <outlet property="delegate" destination="o1d-Za-BIh" id="YKX-k2-d3M"/>
+                        </connections>
+                    </tableView>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Games" id="GIu-fF-OPK"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CAy-Cs-luD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1711.2" y="-418.74062968515744"/>
+        </scene>
+        <!--League of Legend-->
+        <scene sceneID="YzS-pU-HUK">
+            <objects>
+                <viewController id="Owa-67-hhq" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="geQ-DB-8dS"/>
+                        <viewControllerLayoutGuide type="bottom" id="ysE-Np-aHU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ttS-ik-nDQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="h1b-oA-Sef">
+                                <rect key="frame" x="35" y="255" width="304" height="392"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">每個玩家進入遊戲前都要選擇一個英雄（Champion）所有玩家的英雄在一開始都是從等級1開始每場比賽，除了英雄本身固有的能力值，另一個強化其初始能力的則是天賦和符文。繼承自Dota的設定，大部分的英雄都擁有1項被動技能、3項基本指令技能(Q,W,E)及1項終極指令技能(R)，每個技能都有幾個強化階段，玩家按英雄的當前等級可以有限度地選擇4個指令技能的學習或強化順序 （6級時才能學習終極指令技能），每一級可以學習或強化一個技能，英雄等級在18級封頂，即玩家有18點可以分配學習強化技能（3項基本指令技能各有5級，而終極指令技能則有3級）。用來給英雄升級的經驗值只要敵方單位或中立怪物在英雄的一定範圍內死亡就會獲得，不管該玩家有沒有就其擊殺作出過貢獻，但如果有多名隊友在場會分薄經驗值獲得量。
+英雄透過殺敵、破壞對手砲塔或隨時間流逝賺取金錢，金幣可以在該場比賽中在自己溫泉的商店購買戰鬥道具，死亡重生中都可以買賣道具，英雄最多可以攜帶6種道具（以及1件在召喚峽谷地圖中的飾品），消耗性道具如藥水可以少量堆積在同一格道具欄（最多5支生命藥水）。與DotA或魔獸爭霸不同的是所有戰鬥版圖都不設中立商店，雙方都能買到相同的道具，道具亦是全數供應，而非隨時間增加其存貨，英雄之間不能交換道具或輸送金幣，道具亦不能遺棄在版圖上。另外死亡時不會有罰金，但如果單一玩家的英雄擊殺數已經不間斷地累積到一個數量時被敵人擊殺時（shut down），擊殺方全隊都可以獲得額外的金幣獎勵。
+英雄可以透過遊戲商店金幣或聯盟幣購買，也可以透過英雄碎片來合成。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LOL.png" translatesAutoresizingMaskIntoConstraints="NO" id="JQP-kj-bdh">
+                                <rect key="frame" x="51" y="63" width="272" height="156"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.62755399056551364" green="1" blue="0.61756529387422832" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="League of Legend" id="80f-Z2-AqP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4GL-Hd-Phw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2652" y="-847.82608695652175"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="orC-qa-QcZ">
+            <objects>
+                <tabBarController id="avp-pU-raR" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="5Wr-iI-auP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="dk9-TK-bl9" kind="relationship" relationship="viewControllers" id="H3A-Il-rOH"/>
+                        <segue destination="4RU-FI-p7j" kind="relationship" relationship="viewControllers" id="i65-mj-bZd"/>
+                        <segue destination="Wpm-2b-YRq" kind="relationship" relationship="viewControllers" id="aTW-5s-sBt"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Sr-ij-ZSn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-430" y="-116"/>
+        </scene>
+        <!--Overwatch-->
+        <scene sceneID="xnl-cN-0XS">
+            <objects>
+                <viewController id="28B-iL-LPN" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MaL-sW-ylz"/>
+                        <viewControllerLayoutGuide type="bottom" id="BQV-fp-7b7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="FuW-4m-rNz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="JTP-h7-eD5">
+                                <rect key="frame" x="35" y="255" width="304" height="392"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">《鬥陣特攻》是一個6v6的多人團隊遊戲。[2]就像一個多人線上戰鬥競技遊戲一樣，玩家可以從幾個角色中選擇一個，每個角色都有自己技能和風格，加上獨有的「大招」。依據定位可分為四型：攻擊型角色擁有較高的速度及攻擊力，但他們也會因此犧牲部分裝甲；而防禦型與輔助型角色[註 1]可以掐住敵人的重要道路，並為隊友提供屬性加成、治療或其他幫助；重裝則擁有極高的護甲和命中率來阻擋敵人攻擊。玩家在遊戲中死亡後可以切換角色——這是遊戲設計所鼓勵的。[3][4]遊戲的地圖靈感來源於現實世界。[5]已經公布的十二個地圖分別來源於英國、中國、日本和埃及等。[4]已公布四種遊戲模式：
+護送：一方必須在限定時間內將指定目標運送至指定地點，而另一方必須阻止他們。
+佔領：一方必須占領地圖上被另一方保護的目標。[3][4]
+控制：雙方必須搶奪指定目標，先取二勝的團隊就能贏得比賽
+佔領/護送：結合護送&amp;佔領的模式</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="OVERWATCH.png" translatesAutoresizingMaskIntoConstraints="NO" id="l0e-CB-1Qd">
+                                <rect key="frame" x="51" y="63" width="272" height="156"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.43982653710327158" green="0.36024446227344664" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Overwatch" id="bQt-pd-l1w"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mg8-Kf-ro2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3500" y="-848.72563718140941"/>
+        </scene>
+        <!--HearthStone-->
+        <scene sceneID="ROq-vy-woG">
+            <objects>
+                <viewController id="B7s-9F-kGw" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="25g-Vk-X7h"/>
+                        <viewControllerLayoutGuide type="bottom" id="GJM-Zo-e0n"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VpW-TQ-1hI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="DfL-1G-IiR">
+                                <rect key="frame" x="35" y="255" width="304" height="392"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">每一場「爐石戰記」都是1vs1模式，採取輪流回合制。正常情況下玩家在輪到他的回合會抽一張卡片，並且根據手上的牌來決定要召喚手下（中國譯作「隨從」）、裝備武器或者是施放法術等行為來應戰。一場遊戲可能會有兩名玩家，抑或是一名玩家一名電腦，又或者是兩名玩家和一名電腦。[8]
+每名玩家都會選擇一名英雄在一場遊戲中代表他們，而這些英雄都是魔獸世界中的重要角色。不同的英雄會代表不同的職業，同時這些職業會擁有專屬於該職業的特殊套牌以及各具特色的英雄能力。每場遊戲的英雄都擁有三十點生命值；一旦玩家的英雄生命值歸零或變成負值，或此玩家選擇投降，就代表這名玩家輸了這場遊戲。目前，爐石戰記總共擁有九個職業。
+在每個回合的開始，玩家將會從他們的牌庫（deck）中抽一張卡，而這些牌庫必須在開始遊戲前就建構好並且恰好三十張。玩家可以選擇使用預設的牌庫或者自訂牌庫來進行遊戲。當玩家擁有大量該職業的特殊卡牌時，將更能夠體認到遊戲中各職業的獨特魅力以及可能性。
+在輪到該玩家的回合時，玩家將可以選擇要打出卡牌、使用英雄能力、命令手下攻擊，或者當他的英雄有裝備武器時，也可以讓英雄自己進行攻擊；當然，也可以什麼都不做便結束回合。然而，基本上若要出牌或者使用英雄能力，必須花費一定的等同於該張牌左上角數字的法力水晶。在遊戲的一開始雙方玩家都會擁有一顆法力水晶，並且接下來逐回合增加一顆，直到十顆。通常耗費較多法力水晶的牌也會擁有較強大的力量，例如較強壯的手下或者是較高傷害的法術牌。
+當其中一名玩家輸掉的時候（有時雙方會平局），就代表該局遊戲結束了。一局遊戲結束將會讓雙方都獲得經驗值（獲勝方會獲得較多），並且在提升至某些等級時將會獲得一些基本牌（等級超過40級後獲得基本牌金卡）作為獎勵。
+每場戰鬥都將在一個隨機的牌桌背景上進行，這些背景取材於魔獸世界中的著名場景，諸如：荊棘谷、潘達利亞、暴風城、納克薩瑪斯、黑石山以及銀白聯賽等。玩家也可以在遊戲中藉由點擊特定與牌桌四周的景物互動（手機版只有兩個）。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="HEARTH.png" translatesAutoresizingMaskIntoConstraints="NO" id="6yJ-4t-Coe">
+                                <rect key="frame" x="51" y="63" width="272" height="156"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.50644420772994636" blue="0.48459985928622706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="HearthStone" id="vrO-u9-hhI"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hvT-jp-XSV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3708" y="38.23088455772114"/>
+        </scene>
+        <!--Dead by Daylight-->
+        <scene sceneID="6ME-G9-WR6">
+            <objects>
+                <viewController id="eqq-Zg-Pxv" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="X0r-dJ-ebt"/>
+                        <viewControllerLayoutGuide type="bottom" id="RHX-1P-k4Y"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3Xf-sR-dUb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="x5x-vD-0k7">
+                                <rect key="frame" x="35" y="255" width="304" height="392"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">1. 進遊戲之後你需要做的三件事
+
+觀察地圖、觀察隊友、觀察周圍環境。
+
+看到地圖你可以大致想到有些什麼標誌建築物和幾個固定的發電機的位置以及逃生方法和箱子和地窖的位置。
+
+看隊友，開局其實比較忌諱的是四個人一起行動，如果你覺得你單兵能力比較強，那麼盡快和隊友分開，雖然我比較喜歡其他兩個人開同一個發電機，因為吸引屠夫過來我肯定是可以跑掉的
+
+觀察周圍環境，一般來說周圍都會有發電機而這也會是眾人一擁而上群炸爆米花的地方，盡快分開，尋找相對比較安全的發電機。如果是你熟悉的地圖，盡快找到你的位置，選擇你的移動方向，切記不要盲目的奔跑，一般來說屠夫與你的出生位置還有點距離。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DEAD.png" translatesAutoresizingMaskIntoConstraints="NO" id="cCX-VP-7rQ">
+                                <rect key="frame" x="51" y="63" width="272" height="156"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.61896180223820707" blue="0.99051427501301126" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Dead by Daylight" id="FCO-ZX-uHd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WY6-7d-liI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4418.3999999999996" y="-129.08545727136433"/>
+        </scene>
+        <!--myGames-->
+        <scene sceneID="gzP-pz-OKR">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dk9-TK-bl9" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="myGames" id="0Fh-ye-P05"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="9AO-r1-jdb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="o1d-Za-BIh" kind="relationship" relationship="rootViewController" id="khf-7C-eNz"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JXC-WY-oUc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="772" y="-418.74062968515744"/>
+        </scene>
+        <!--favorite streamer-->
+        <scene sceneID="QSi-tG-4Bm">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Wpm-2b-YRq" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="favorite streamer" id="41W-11-ach"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="gP5-Jk-uv9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Ugo-Yl-KaK" kind="relationship" relationship="rootViewController" id="ICR-jc-OAO"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C5x-N1-xtV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="728.79999999999995" y="284.70764617691157"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="11072522_10203416445883493_2093850579470301928_o.png" width="1080" height="1080"/>
+        <image name="DEAD.png" width="304" height="166"/>
+        <image name="HEARTH.png" width="300" height="168"/>
+        <image name="LOL.png" width="299" height="168"/>
+        <image name="OVERWATCH.png" width="310" height="163"/>
+    </resources>
+</document>
